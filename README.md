@@ -1,2 +1,2 @@
 # BlueConcerto
-A Luo Tianyi's fanmusic game
+A Luo Tianyi's fanmusic game using GamemakerStudio
