@@ -5,3 +5,4 @@
 4.delay setting system
 5.setting page
 6.note → buffer
+7.音符队列
