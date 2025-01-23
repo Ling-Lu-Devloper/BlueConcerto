@@ -4,3 +4,4 @@
 3.better UI
 4.delay setting system
 5.setting page
+6.note → buffer
