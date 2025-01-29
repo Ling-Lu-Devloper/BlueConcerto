@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"LineAudioUtils",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"LineAudioUtils",
+  "parent":{
+    "name":"LineAudio",
+    "path":"folders/LineAudio.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

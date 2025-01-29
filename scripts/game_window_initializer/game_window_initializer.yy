@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"game_window_initializer",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"game_window_initializer",
+  "parent":{
+    "name":"main",
+    "path":"folders/脚本/main.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

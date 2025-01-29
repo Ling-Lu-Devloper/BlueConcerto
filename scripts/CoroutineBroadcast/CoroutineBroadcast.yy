@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"CoroutineBroadcast",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"CoroutineBroadcast",
+  "parent":{
+    "name":"Coroutines",
+    "path":"folders/Coroutines.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

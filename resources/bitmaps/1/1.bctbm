@@ -1,0 +1,56 @@
+{
+  "metadata": {
+	"title": "test1"
+	"music": "linglu"
+	"bmAuthor": "linglu"
+	"BPM": ""
+	""
+
+    "musicFile": "music.mp3",
+    "offset": 0
+  },
+  "notes": [
+    {
+      "track": 0,
+      "time": 1000,
+      "type": "Tap"
+    },
+    {
+      "track": 1,
+      "time": 1500,
+      "type": "Long",
+      "endTime": 2000
+    },
+    {
+      "track": 2,
+      "time": 2000,
+      "type": "Drag"
+    },
+    {
+      "track": 3,
+      "time": 2500,
+      "type": "Any"
+    },
+    {
+      "track": 0,
+      "time": 3000,
+      "type": "Tap"
+    },
+    {
+      "track": 1,
+      "time": 3500,
+      "type": "Tap"
+    },
+    {
+      "track": 2,
+      "time": 4000,
+      "type": "Long",
+      "endTime": 4500
+    },
+    {
+      "track": 3,
+      "time": 5000,
+      "type": "Drag"
+    }
+  ]
+}

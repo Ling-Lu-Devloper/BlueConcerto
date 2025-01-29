@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"LineAudioErrorChecking",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"LineAudioErrorChecking",
+  "parent":{
+    "name":"LineAudio",
+    "path":"folders/LineAudio.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

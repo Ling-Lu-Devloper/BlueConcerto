@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"pool_hamdler",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"pool_hamdler",
+  "parent":{
+    "name":"handler",
+    "path":"folders/脚本/handler.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

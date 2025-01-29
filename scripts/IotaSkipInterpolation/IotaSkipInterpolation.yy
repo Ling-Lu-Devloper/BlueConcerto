@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"IotaSkipInterpolation",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"IotaSkipInterpolation",
+  "parent":{
+    "name":"iota",
+    "path":"folders/iota.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

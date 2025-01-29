@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"var_compiler",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"var_compiler",
+  "parent":{
+    "name":"compiler",
+    "path":"folders/脚本/compiler.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

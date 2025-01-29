@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"__IotaEnsureChildID",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"__IotaEnsureChildID",
+  "parent":{
+    "name":"(System)",
+    "path":"folders/iota/(System).yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

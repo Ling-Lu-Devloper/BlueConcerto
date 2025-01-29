@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"IotaClock",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"IotaClock",
+  "parent":{
+    "name":"iota",
+    "path":"folders/iota.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"imput_handler",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"imput_handler",
+  "parent":{
+    "name":"handler",
+    "path":"folders/脚本/handler.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
