@@ -15,45 +15,50 @@
 	"notes": [
     {
       "track": 1,
-      "time": 1,
+      "time": 20,
+      "type": "Tap"
+    },
+		{
+      "track": 4,
+      "time": 20,
+      "type": "Tap"
+    },
+    {
+      "track": 3,
+      "time": 20,
       "type": "Tap"
     },
     {
       "track": 2,
-      "time": 2,
+      "time": 20,
+      "type": "Tap"
+    },
+    {
+      "track": 2,
+      "time": 30,
 	  "endtime": 5,
       "type": "Long"
     },
     {
       "track": 3,
-      "time": 3,
+      "time": 40,
       "type": "Drag"
     },
     {
       "track": 4,
-      "time": 4,
+      "time": 50,
 	  "endtime": 6,
       "type": "Any"
     },
     {
       "track": 3,
-      "time": 1,
-      "type": "Tap"
-    },
-    {
-      "track": 2,
-      "time": 1,
-      "type": "Tap"
-    },
-    {
-      "track": 3,
-      "time": 7,
+      "time": 20,
 	  "endtime": 8,
       "type": "Long"
     },
     {
       "track": 4,
-      "time": 9,
+      "time": 40,
       "type": "Drag"
     }
   ]

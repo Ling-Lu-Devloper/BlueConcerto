@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"decider",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"decider",
+  "parent":{
+    "name":"track",
+    "path":"folders/脚本/track.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

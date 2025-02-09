@@ -2,7 +2,7 @@
 loaded = false
 note_speed = 8
 bitmap_path = global.bitmap_arr[global.selected_bitmap]
-selected_bitmap_metadata = global.bitmap_metadata[global.selected_bitmap]
+selected_bitmap_metadata = global.bitmap_metadata[global.selected_bitmap - 1]
 bitmap_folder = filename_path(bitmap_path)
 // 在 Create 事件中初始化
 var _music_path = bitmap_folder + selected_bitmap_metadata.musicFile
@@ -11,7 +11,7 @@ if(file_exists(_music_path)){
 	global.track_music = audio_create_stream(_music_path)
 }else global.track_music = -1
 
-global.note_move_time = ceil(((-1.5) * note_speed) + 15.6) * 1000 //移动时间(ms)
+global.note_move_time = ceil((-0.28 * note_speed + 3.28) * 1000) //移动时间(ms)
 show_debug_message(bitmap_path)
 var note_data = read_bctbm(bitmap_path,1)
 global.note_arr1 = []
