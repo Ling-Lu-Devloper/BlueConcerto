@@ -9,8 +9,8 @@
   "name":"Obj_FirebaseFirestore_allCallbacks",
   "overriddenProperties":[],
   "parent":{
-    "name":"Testing",
-    "path":"folders/Testing.yy",
+    "name":"Objects",
+    "path":"folders/Firebase Demo/Firebase Firestore/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,6 +1,5 @@
-/// @description 在此处插入描述 
-// 你可以在此编辑器中写入代码 
-
-// Inherit the parent event
-event_inherited();
-
+var dtime = global.inst_timer.delta_timer - (starttime * 1000)
+y = dtime  * notespeed_per_msec / 1000
+if (y + y_distance > 3500){
+	inst_game_controller.long_pool.poolPush(self)
+}

@@ -1,6 +1,6 @@
 /// @description 初始化&加载到数组
 loaded = false
-note_speed = 8
+note_speed = 3
 bitmap_path = global.bitmap_arr[global.selected_bitmap]
 selected_bitmap_metadata = global.bitmap_metadata[global.selected_bitmap - 1]
 bitmap_folder = filename_path(bitmap_path)
@@ -21,8 +21,8 @@ global.note_arr4 = []
 
 for(var i = 0; i < array_length(note_data); i++){
 	show_debug_message(note_data[i])
-	note_data[i].time = note_data[i].time * time_bpm_to_seconds(selected_bitmap_metadata.BPM) * 1000 + selected_bitmap_metadata.offset //到达时间（ms）
-	if (struct_exists(note_data[i], "endtime")) note_data[i].endtime = note_data[i].endtime * time_bpm_to_seconds(selected_bitmap_metadata.BPM) * 1000 + selected_bitmap_metadata.offset //长音符结束时间（ms）
+	note_data[i].time = (note_data[i].time  ) * time_bpm_to_seconds(selected_bitmap_metadata.BPM) * 1000 + selected_bitmap_metadata.offset //到达时间（ms）
+	if (struct_exists(note_data[i], "endtime")) note_data[i].endtime = (note_data[i].endtime  ) * time_bpm_to_seconds(selected_bitmap_metadata.BPM) * 1000 + selected_bitmap_metadata.offset //长音符结束时间（ms）
 	if(note_data[i].type != "Tap" && note_data[i].type != "Long" && note_data[i].type != "Drag" && note_data[i].type != "Any"){
 		show_debug_message("unknown note type at " + note_data[i])
 	}else{

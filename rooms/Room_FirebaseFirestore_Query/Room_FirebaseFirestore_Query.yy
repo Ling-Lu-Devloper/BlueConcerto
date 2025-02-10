@@ -47,8 +47,8 @@
   ],
   "name":"Room_FirebaseFirestore_Query",
   "parent":{
-    "name":"房间",
-    "path":"folders/房间.yy",
+    "name":"Rooms",
+    "path":"folders/Firebase Demo/Firebase Firestore/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

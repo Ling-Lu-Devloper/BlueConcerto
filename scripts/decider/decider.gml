@@ -6,7 +6,8 @@
 /// @param {real} decideval3 good
 /// @param {real} decideval4 miss
 /// @return {real} 得分
-function decider(dtime, decideval1,decideval2, decideval3, decideval4){
+function decider(dtime,decideval1,decideval2,decideval3,decideval4){
+	show_debug_message("dtime:" + string(dtime))
 	if (abs(dtime) <= decideval1){
 		instance_activate_object(inst_decide_shower)
 		inst_decide_shower.decide_value = 1
@@ -27,3 +28,5 @@ function decider(dtime, decideval1,decideval2, decideval3, decideval4){
 		return 0
 	}
 }
+
+function hold_decider(){}

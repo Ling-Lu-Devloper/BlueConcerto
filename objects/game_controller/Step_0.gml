@@ -7,18 +7,21 @@ if (global.inst_timer.delta_timer >= (track1time - note_move_time) * 1000 && !tr
 		case "Tap":
 			_note = tap_pool.poolPop()
 			_note.x = track1_x
+			_note._track = 1
 			_note.starttime = track1time
 			array_delete(track1,0,1)
 			break
 		case "Drag":
 			_note = drag_pool.poolPop()
 			_note.x = track1_x
+			_note._track = 1
 			_note.starttime = track1time
 			array_delete(track1,0,1)
 			break
 		case "Long":
 			_note = long_pool.poolPop()
 			_note.x = track1_x
+			_note._track = 1
 			_note.starttime = track1time
 			_note.duration = track1duration
 			array_delete(track1,0,1)
@@ -26,6 +29,7 @@ if (global.inst_timer.delta_timer >= (track1time - note_move_time) * 1000 && !tr
 		case "Any":
 			_note = any_pool.poolPop()
 			_note.x = track1_x
+			_note._track = 1
 			_note.starttime = track1time
 			_note.duration = track1duration
 			array_delete(track1,0,1)
@@ -43,18 +47,21 @@ if (global.inst_timer.delta_timer >= (track2time - note_move_time) * 1000 && !tr
 		case "Tap":
 			_note = tap_pool.poolPop()
 			_note.x = track2_x
+			_note._track = 2
 			_note.starttime = track2time
 			array_delete(track2,0,1)
 			break
 		case "Drag":
 			_note = drag_pool.poolPop()
 			_note.x = track2_x
+			_note._track = 2
 			_note.starttime = track2time
 			array_delete(track2,0,1)
 			break
 		case "Long":
 			_note = long_pool.poolPop()
 			_note.x = track2_x
+			_note._track = 2
 			_note.starttime = track2time
 			_note.duration = track2duration
 			array_delete(track2,0,1)
@@ -62,6 +69,7 @@ if (global.inst_timer.delta_timer >= (track2time - note_move_time) * 1000 && !tr
 		case "Any":
 			_note = any_pool.poolPop()
 			_note.x = track2_x
+			_note._track = 2
 			_note.starttime = track2time
 			_note.duration = track2duration
 			array_delete(track2,0,1)
@@ -85,18 +93,21 @@ if (global.inst_timer.delta_timer >= (track3time - note_move_time) * 1000 && !tr
 		case "Tap":
 			_note = tap_pool.poolPop()
 			_note.x = track3_x
+			_note._track = 3
 			_note.starttime = track3time
 			array_delete(track3,0,1)
 			break
 		case "Drag":
 			_note = drag_pool.poolPop()
 			_note.x = track3_x
+			_note._track = 3
 			_note.starttime = track3time
 			array_delete(track3,0,1)
 			break
 		case "Long":
 			_note = long_pool.poolPop()
 			_note.x = track3_x
+			_note._track = 3
 			_note.starttime = track3time
 			_note.duration = track3duration
 			array_delete(track3,0,1)
@@ -104,6 +115,7 @@ if (global.inst_timer.delta_timer >= (track3time - note_move_time) * 1000 && !tr
 		case "Any":
 			_note = any_pool.poolPop()
 			_note.x = track3_x
+			_note._track = 3
 			_note.starttime = track3time
 			_note.duration = track3duration
 			array_delete(track3,0,1)
@@ -120,19 +132,22 @@ if (global.inst_timer.delta_timer >= (track4time - note_move_time) * 1000 && !tr
 		
 		case "Tap":
 			_note = tap_pool.poolPop()
-			
+			_note.x = track4_x
+			_note._track = 4
 			_note.starttime = track4time
 			array_delete(track4,0,1)
 			break
 		case "Drag":
 			_note = drag_pool.poolPop()
 			_note.x = track4_x
+			_note._track = 4
 			_note.starttime = track4time
 			array_delete(track4,0,1)
 			break
 		case "Long":
 			_note = long_pool.poolPop()
 			_note.x = track4_x
+			_note._track = 4
 			_note.starttime = track4time
 			_note.duration = track4duration
 			array_delete(track4,0,1)
@@ -140,6 +155,7 @@ if (global.inst_timer.delta_timer >= (track4time - note_move_time) * 1000 && !tr
 		case "Any":
 			_note = any_pool.poolPop()
 			_note.x = track4_x
+			_note._track = 4
 			_note.starttime = track4time
 			_note.duration = track4duration
 			array_delete(track4,0,1)

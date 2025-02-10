@@ -6,7 +6,7 @@
     "title": "test1",
     "musician": "linglu",
     "author": "linglu",
-    "BPM": 120,
+    "BPM": 176,
     "level": "easy",
     "musicFile": "music.ogg",
     "description": "the first test file",
@@ -15,50 +15,135 @@
 	"notes": [
     {
       "track": 1,
-      "time": 20,
+      "time": 9,
       "type": "Tap"
     },
-		{
+	{
       "track": 4,
-      "time": 20,
+      "time": 17,
       "type": "Tap"
     },
     {
       "track": 3,
-      "time": 20,
+      "time": 29,
       "type": "Tap"
     },
     {
       "track": 2,
-      "time": 20,
+      "time": 34,
       "type": "Tap"
     },
     {
       "track": 2,
-      "time": 30,
+      "time": 48,
 	  "endtime": 5,
       "type": "Long"
     },
     {
       "track": 3,
-      "time": 40,
+      "time": 65,
       "type": "Drag"
     },
     {
       "track": 4,
-      "time": 50,
+      "time": 69,
 	  "endtime": 6,
       "type": "Any"
     },
     {
       "track": 3,
-      "time": 20,
+      "time": 73,
 	  "endtime": 8,
       "type": "Long"
     },
+	{
+      "track": 2,
+      "time": 87,
+      "type": "Tap"
+    },
+	{
+      "track": 2,
+      "time": 91,
+      "type": "Tap"
+    },
+	{
+      "track": 2,
+      "time": 95,
+      "type": "Tap"
+    },
+    {
+      "track": 2,
+      "time": 99,
+      "type": "Tap"
+    },
+    {
+      "track": 2,
+      "time": 103,
+      "type": "Tap"
+    },
+	{
+      "track": 2,
+      "time": 107,
+      "type": "Tap"
+    },
+	{
+      "track": 2,
+      "time": 121,
+      "type": "Tap"
+    },
+	{
+      "track": 2,
+      "time": 125,
+      "type": "Tap"
+    },
+	{
+      "track": 2,
+      "time": 129,
+      "type": "Tap"
+    },
+	{
+      "track": 2,
+      "time": 133,
+      "type": "Tap"
+    },
+	{
+      "track": 2,
+      "time": 137,
+      "type": "Tap"
+    },
+	{
+      "track": 2,
+      "time": 141,
+      "type": "Tap"
+    },
+	{
+      "track": 2,
+      "time": 145,
+      "type": "Tap"
+    },
+	{
+      "track": 2,
+      "time": 148,
+      "type": "Tap"
+    },
+	{
+      "track": 2,
+      "time": 152,
+      "type": "Tap"
+    },
+	{
+      "track": 2,
+      "time": 156,
+      "type": "Tap"
+    },
+	{
+      "track": 2,
+      "time": 160,
+      "type": "Tap"
+    },
     {
       "track": 4,
-      "time": 40,
+      "time": 132,
       "type": "Drag"
     }
   ]

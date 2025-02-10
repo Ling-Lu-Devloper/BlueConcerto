@@ -42,4 +42,4 @@ https://marketplace.yoyogames.com/assets/6950/audio-visualizer */
 samples_per_beat = (SEC_PER_MIN / global.bpm) * samplerate; //calculates the amount samples per beat, based on the samplerate provided by the buffer player
 
 //start playing the sound provided by the buffer player
-audio_play_sound(audio, 0, 0);
+audio_play_sound(audi, 0, 0);
