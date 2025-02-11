@@ -1,6 +1,7 @@
 {
   "$GMAndroidOptions":"",
   "%Name":"Android",
+  "ConfigValues":{},
   "name":"Android",
   "option_android_application_tag_inject":"",
   "option_android_arch_arm64":true,
@@ -41,7 +42,7 @@
   "option_android_install_location":0,
   "option_android_interpolate_pixels":true,
   "option_android_launchscreen_fill":0,
-  "option_android_lint":false,
+  "option_android_lint":true,
   "option_android_logcat":"yoyo:V DEBUG:V AndroidRuntime:V",
   "option_android_minimum_sdk":"21",
   "option_android_orient_landscape":true,
@@ -75,7 +76,7 @@
   "option_android_tv_isgame":true,
   "option_android_tv_supports_leanback":true,
   "option_android_use_facebook":false,
-  "option_android_version":"0.0.1",
+  "option_android_version":"0.0.2",
   "resourceType":"GMAndroidOptions",
   "resourceVersion":"2.0",
 }

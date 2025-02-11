@@ -23,7 +23,7 @@
   ],
   "name":"spr_tap_note",
   "nineSlice":null,
-  "origin":0,
+  "origin":6,
   "parent":{
     "name":"notes",
     "path":"folders/精灵/notes.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":0,
-    "yorigin":0,
+    "yorigin":100,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

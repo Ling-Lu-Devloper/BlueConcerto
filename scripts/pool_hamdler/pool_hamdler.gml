@@ -1,8 +1,12 @@
 //对象池
 function object_pool() constructor{
 	pool = [] //创建池
-	
-	static poolInit = function(_object,_layer,_count){ //初始化池子，并投入一定数量的相应对象
+	_mode = 0
+enum mode
+{
+	mode_NOTE	
+}
+	static poolInit = function(_object,_layer,_count,__mode){ //初始化池子，并投入一定数量的相应对象
 		for (var i = 0;i < _count; i++){
 			var inst = instance_create_layer(0,0,_layer,_object)
 			instance_deactivate_object(inst)
@@ -10,7 +14,7 @@ function object_pool() constructor{
 			inst.pooled = true
 			array_push(pool,inst)
 		}
-		
+		_mode = __mode
 		return pool  //丢出池子
 	}
 	
@@ -19,12 +23,18 @@ function object_pool() constructor{
             return;
         }
 		inst.active = false
-		instance_deactivate_object(inst)
-		inst.x = 0
-		inst.y = 0
-		inst.speed = 0
-		inst.direction = 0
+		if (_mode == mode.mode_NOTE){
+			inst.x = 0
+			inst.y = 0
+			inst.speed = 0
+			inst.direction = 0
+			inst.duration = 0
+			inst.starttime = -1
+			inst.notespeed_per_msec = 0
+			inst._track = 0
+		}
 		inst.pooled = true
+		instance_deactivate_object(inst)
 		show_debug_message(string(inst) + " has pushed")
 		array_push(pool,inst)
 	}

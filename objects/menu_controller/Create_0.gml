@@ -1,8 +1,8 @@
 ///@desc 各项初始化
-global.selected_bitmap = 0
-selected_column = 1
-selected_line = 1
-index_per_column = 15
+global.selected_bitmap = 0;
+selected_column = 1;
+selected_line = 1;
+index_per_column = 15;
 // 查找指定文件夹路径下的所有子文件夹
 bitmap_folder_path = folder_search("resources/bitmaps");
 
@@ -30,9 +30,9 @@ for (var i = 0; i < array_length(bitmap_folder_path); i++) {
 
 // 获取最终的文件总数
 bitmap_count = array_get(global.bitmap_arr, 0);
-global.bitmap_metadata = array_create(0)
+global.bitmap_metadata = array_create(0);
 for (var i = 1; i < array_length(global.bitmap_arr); i++){
-	array_push(global.bitmap_metadata,read_bctbm(global.bitmap_arr[i],0))
+	array_push(global.bitmap_metadata,read_bctbm(global.bitmap_arr[i],0));
 }
 	
 

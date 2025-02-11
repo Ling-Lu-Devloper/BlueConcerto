@@ -3,5 +3,5 @@
 
 // Inherit the parent event
 event_inherited();
-y_distance = 0
-
+length = duration * notespeed_per_msec;
+scale = length / 100;

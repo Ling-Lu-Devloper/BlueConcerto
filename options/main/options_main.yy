@@ -15,7 +15,7 @@
   "option_legacy_other_behaviour":false,
   "option_mips_for_3d_textures":false,
   "option_remove_unused_assets":true,
-  "option_sci_usesci":true,
+  "option_sci_usesci":false,
   "option_spine_licence":true,
   "option_steam_app_id":"0",
   "option_template_description":null,

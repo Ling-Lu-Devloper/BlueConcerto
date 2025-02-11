@@ -1,4 +1,4 @@
-// this object is simply a room switcher; there's a different demo object in each room
+/*/ this object is simply a room switcher; there's a different demo object in each room
 
 x = room_width - 16;
 y = room_height - 16;

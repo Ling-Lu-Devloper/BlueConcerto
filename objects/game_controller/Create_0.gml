@@ -1,15 +1,15 @@
 /// @description 在此处插入描述 
 
-note_move_time = variable_global_get("note_move_time")
-layer_id = layer_get_id("notes_and_decider")
+note_move_time = global.note_move_time
+layer_id = layer_get_id("layer_notes")
 tap_pool = new object_pool()
 drag_pool = new object_pool()
 long_pool = new object_pool()
 any_pool = new object_pool()
-tap_pool.poolInit(Tap,layer_id,30)
-drag_pool.poolInit(Drag,layer_id,30)
-long_pool.poolInit(Long,layer_id,30)
-any_pool.poolInit(Any,layer_id,30)
+tap_pool.poolInit(Tap,layer_id,50,mode.mode_NOTE)
+drag_pool.poolInit(Drag,layer_id,50,mode.mode_NOTE)
+long_pool.poolInit(Long,layer_id,50,mode.mode_NOTE)
+any_pool.poolInit(Any,layer_id,50,mode.mode_NOTE)
 show_debug_message("pool Inited")
 isFinish = false
 global.inst_timer = instance_create_layer(0,0,"layer_timer",timer)
@@ -34,3 +34,5 @@ track3 = variable_global_get("note_arr3")
 track4 = variable_global_get("note_arr4")
 track3time = track3[0].time
 track4time = track4[0].time
+_timer = global.inst_timer.delta_timer
+track_length = audio_sound_length(global.track_music) * 1000
